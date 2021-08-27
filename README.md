@@ -1,17 +1,17 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+>**Note**: 
 
 ### Date created
-Include the date you created this project and README file.
+27 August 2021
 
 ### Project Title
-Replace the Project Title
+Bikeshare by Sahar for Udacity
 
 ### Description
-Describe what your project is about and what it does
+This project mines information based on user selection on one csv file. The data files store information about the bikeshare project where anyone with a payment method can rent a bike. The bike user information including age and city get stored and is available to be analysed by this programme.
 
 ### Files used
-Include the files used
+Three csv files are used as data files
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity
 
