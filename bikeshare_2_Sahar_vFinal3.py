@@ -65,7 +65,7 @@ def get_filters():
             city = input("Please make sure the city is one of Chicago, New York City or Washington?\n").lower()
             print_case += 1
         else:
-            city = input("Have you checked the spelling? Chicago, New York City or Washington?\n").lower()
+            city = input("Typo perhaps? Chicago, New York City or Washington?\n").lower()
     print('\nThank you! You have selected',city.title())
     
     #user interaction to provide filters for data set
@@ -95,7 +95,7 @@ def get_filters():
                 month = get_month()
         else:
             #in case the user input is not valid, it will be assumed that there are no filters chosen
-            print('Your input was not valid. The analysis is now running for the default filter (ALL)')
+            print('Sorry! Your input was not valid. The analysis is now running for all months')
     print('-'*40)
     return city, month, day
 
@@ -113,7 +113,7 @@ def load_data(city, month, day):
     """
     
     #overview of the selected filters
-    print('The filters are') 
+    print('The report filters are') 
     print('City:',city.title())
     print('Month:',month.title())
     print('Day:',day.title())
