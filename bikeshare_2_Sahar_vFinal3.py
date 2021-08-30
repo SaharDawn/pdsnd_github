@@ -112,7 +112,7 @@ def load_data(city, month, day):
     """
     
     #overview of the selected filters
-    print('The filters are') 
+    print('The report filters are') 
     print('City:',city.title())
     print('Month:',month.title())
     print('Day:',day.title())
