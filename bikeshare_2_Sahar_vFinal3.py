@@ -94,7 +94,7 @@ def get_filters():
                 month = get_month()
         else:
             #in case the user input is not valid, it will be assumed that there are no filters chosen
-            print('Your input was not valid. The analysis is now running for the default filter (ALL)')
+            print('Sorry! Your input was not valid. The analysis is now running for all months')
     print('-'*40)
     return city, month, day
 
