@@ -5,6 +5,7 @@ import calendar
 from statistics import mode
 import numpy as np
 
+#Project uploaded to Github https://github.com/SaharDawn/pdsnd_github
 #dictionary to hold csv filenames per city
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
