@@ -64,7 +64,7 @@ def get_filters():
             city = input("Please make sure the city is one of Chicago, New York City or Washington?\n").lower()
             print_case += 1
         else:
-            city = input("Have you checked the spelling? Chicago, New York City or Washington?\n").lower()
+            city = input("Typo perhaps? Chicago, New York City or Washington?\n").lower()
     print('\nThank you! You have selected',city.title())
     
     #user interaction to provide filters for data set
